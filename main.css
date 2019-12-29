@@ -10,14 +10,22 @@ body {
     flex-direction: column;
 }
 
-div {
-    width: 50%;
+.linkBox {
+    width: 60%;
     height: 400px;
     margin-top: 50px;
-    border-radius: 30px;
+}
+
+#wrapper {
+    max-width: 800px;
+    /* min-width: 700px; */
+    ;
+    max-height: 2000px;
+    /* background-color: darkgreen; */
 }
 
 img {
     width: 100%;
     height: 100%;
+    border-radius: 30px;
 }
